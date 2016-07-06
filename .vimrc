@@ -8,6 +8,7 @@ set cursorline
 
 "buffergator options
 let g:buffergator_split_size=8
+let g:buffergator_viewport_split_policy='B'
 
 map <C-c> :s/^/\/\//<Enter>
 map <C-u> :s/^\/\///<Enter>
