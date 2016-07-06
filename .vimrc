@@ -6,4 +6,8 @@ set nocompatible
 set cursorline
 "set number
 
+"buffergator options
 let g:buffergator_split_size=8
+
+map <C-c> :s/^/\/\//<Enter>
+map <C-u> :s/^\/\///<Enter>
