@@ -15,11 +15,11 @@ set wildmenu            " visual autocomplete for command menu
 "set number              " show line numbers
 "set autochdir
 "" move to beginning/end of line
-nnoremap B ^
-nnoremap E $
+"nnoremap B ^
+"nnoremap E $
 "" $/^ doesn't do anything
-nnoremap $ <nop>
-nnoremap ^ <nop>
+"nnoremap $ <nop>
+"nnoremap ^ <nop>
 
 "" ## NETRW ##
 let g:netrw_liststyle=3 " set tree-list view as default 
